@@ -1,6 +1,12 @@
-declare name "Granulator";
+declare name "Granulator-e7mac";
 declare author "Mayank Sanganeria";
 declare version "1.0";
+
+// Declare the plugin category for standard formats and LV2
+declare category "Fx/Delay";
+
+// Explicit declaration for VST/VST3 architectures
+declare vst:category "Fx|Delay";
 
 // Controls
 N = hslider("grain density", 1, 1, maxN, 1);
