@@ -1,4 +1,4 @@
-declare name "Granulator-e7mac";
+declare name "Granulator_e7mac";
 declare author "Mayank Sanganeria";
 declare version "1.1";
 declare description "Granular processor based on a single shared delay line";
@@ -7,7 +7,7 @@ declare description "Granular processor based on a single shared delay line";
 declare category "Fx/Delay";
 
 // Explicit declaration for VST/VST3 architectures
-declare vst:category "Fx|Delay";
+//declare vst:category "Fx|Delay";
 
 import("stdfaust.lib");
 
